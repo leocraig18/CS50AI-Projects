@@ -36,6 +36,10 @@ For example, the list [(1, 2), (3, 4)] indicates:
 ## Usage
 
 1. Ensure you have the data directories (`small` and `large`) in the same folder as the script.
-2. Run the script using the command: ```python3 degrees.py [directory]``` where [directory] is an optional argument that can be either small or large to specify which dataset to use. If omitted, the program will default to the large dataset.
-3. Follow the prompts to input two actor names.
-4. The program will output the shortest path between the two actors or notify you if no connection exists.
+2. Run the script using the command: 
+``` bash 
+python3 degrees.py [directory]
+``` 
+where [directory] is an optional argument that can be either small or large to specify which dataset to use. If omitted, the program will default to the large dataset.
+5. Follow the prompts to input two actor names.
+6. The program will output the shortest path between the two actors or notify you if no connection exists.
